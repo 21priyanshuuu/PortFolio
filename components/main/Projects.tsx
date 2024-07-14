@@ -11,16 +11,20 @@ const Projects = () => {
         My Projects
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
-        <ProjectCard
-          src="/Music.png"
-          title="Next.js Music Acaedemy"
-          description=" Elevate your musical journey with our immersive platform powered by Next.js, offering seamless learning experiences and advanced curriculum tailored for aspiring musicians."
-        />
-        <ProjectCard
-          src="/iTask.png"
-          title="TaskMinder"
-          description="Prioritize your tasks based on urgency and importance with our intuitive grid system. Stay organized, focused, and productive by categorizing tasks into urgent, important, and routine sections. "
-        />
+        <a href="https://task-manager-cyan-sigma.vercel.app/">
+          <ProjectCard
+            src="/Music.png"
+            title="Next.js Music Acaedemy"
+            description=" Elevate your musical journey with our immersive platform powered by Next.js, offering seamless learning experiences and advanced curriculum tailored for aspiring musicians."
+          />
+        </a>
+        <a href="https://task-manager-cyan-sigma.vercel.app/">
+          <ProjectCard
+            src="/iTask.png"
+            title="TaskMinder"
+            description="Prioritize your tasks based on urgency and importance with our intuitive grid system. Stay organized, focused, and productive by categorizing tasks into urgent, important, and routine sections. "
+          />
+        </a>
 
         <ProjectCard
           src="/SpaceWebsite.png"
