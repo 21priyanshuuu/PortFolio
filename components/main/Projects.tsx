@@ -18,11 +18,11 @@ const Projects = () => {
             description=" Elevate your musical journey with our immersive platform powered by Next.js, offering seamless learning experiences and advanced curriculum tailored for aspiring musicians."
           />
         </a>
-        <a href="https://task-manager-cyan-sigma.vercel.app/">
+        <a href="heart-link-dating-app.vercel.app">
           <ProjectCard
-            src="/iTask.png"
-            title="TaskMinder"
-            description="Prioritize your tasks based on urgency and importance with our intuitive grid system. Stay organized, focused, and productive by categorizing tasks into urgent, important, and routine sections. "
+            src="/HeartLink.png"
+            title="HeartLink"
+            description="HeartLink is an interactive dating app website designed to connect individuals based on shared interests and preferences. Built using Next.js and a graph database, it provides features like left-swipe/right-swipe functionality powered by react-card animations. Users can create profiles, explore matches, and interact seamlessly within an intuitive interface. HeartLink prioritizes meaningful connections, blending modern design with intelligent matchmaking."
           />
         </a>
 
